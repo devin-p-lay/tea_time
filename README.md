@@ -1,5 +1,7 @@
 # README
-![Tea Time](https://user-images.githubusercontent.com/87088092/162839008-85bff3c7-dc6d-49c5-9c5e-8e3076f86c84.png)
+
+![Tea Time (1)](https://user-images.githubusercontent.com/87088092/162839202-11dfc38f-5442-4245-b70e-a123fa16db6f.png)
+
 
 ![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)
 
