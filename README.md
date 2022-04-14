@@ -153,9 +153,16 @@
 
 <details close="close">
   <summary>Request</summary>
-  
+`POST /api/v1/teas`
+
+Request body:
 ```
-    post "/api/v1/teas"
+{
+    "title": "Oolong Tea",
+    "description": "Organic, top rated",
+    "temperature": "152",
+    "brew_time": "Between 2-5 minutes"
+}
 ```
   
 </details>
@@ -163,8 +170,20 @@
 <details close="close">
   <summary>Response</summary>
   
-# ![Screen Shot 2022-04-14 at 1 22 22 AM](https://user-images.githubusercontent.com/87088092/163334727-bfc144f7-f1af-45de-86a3-44510690a5b0.png)
-  
+  ```json
+{
+    "data": {
+        "id": "2",
+        "type": "tea",
+        "attributes": {
+            "title": "Oolong Tea",
+            "description": "Organic, top rated",
+            "temperature": 152,
+            "brew_time": "Between 2-5 minutes"
+        }
+    }
+}
+```
 </details>
 
 <br> 
@@ -176,14 +195,11 @@
 <details close="close">
   <summary>Request</summary>
   
-```json
-  
+```
     post /api/v1/customers
-  
 ```
   Request body:
-  
-```json
+```
   
   {
       first_name: 'Beckett',
