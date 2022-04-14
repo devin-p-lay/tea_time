@@ -89,7 +89,17 @@
   <summary>Request</summary>
   
 ```
-    post "/api/v1/customers/#{customer.id}/subscriptions"
+    post "/api/v1/customers/:customer_id/subscriptions"
+```
+  
+  Request body:
+```
+{
+    "tea_id": "1",
+    "frequency": "weekly",
+    "title": "example",
+    "price": "20.00"
+}
 ```
   
 </details>
@@ -97,7 +107,23 @@
 <details close="close">
   <summary>Response</summary>
   
-#
+```json
+{
+    "data": {
+        "id": "6",
+        "type": "subscription",
+        "attributes": {
+            "customer_id": 1,
+            "tea_id": 1,
+            "title": "example",
+            "price": 20.0,
+            "frequency": "weekly",
+            "status": "active"
+        }
+    }
+}
+```
+
   
 </details>
 
@@ -109,17 +135,30 @@
 
  <details close="close">
   <summary>Request</summary>
-  
-```
-    patch
-```
-  
+
+`PATCH "/api/v1/customers/:customer_id/subscriptions/:subscription_id?status=cancelled"`
+
 </details>
 
 <details close="close">
   <summary>Response</summary>
   
-#
+```json
+{
+    "data": {
+        "id": "1",
+        "type": "subscription",
+        "attributes": {
+            "customer_id": 1,
+            "tea_id": 1,
+            "title": "test",
+            "price": 10.0,
+            "frequency": "weekly",
+            "status": "cancelled"
+        }
+    }
+}
+```
   
 </details>
 
@@ -139,7 +178,7 @@
 <details close="close">
   <summary>Response</summary>
   
-```
+```json
 {
     "data": [
         {
