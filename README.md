@@ -78,7 +78,9 @@
 
 <br>
 
-<div align="center">Endpoints</div>
+## <div align="center">Endpoints</div>
+
+<hr>
 
 ### Subscribe a customer to a tea subscription
   <details close="close">
@@ -102,6 +104,11 @@
   
 - Cancel a customer's tea subscription
 - Index customer's subscriptions
+
+<br>
+
+<hr> 
+
 ### Add a tea 
 
 <details close="close">
