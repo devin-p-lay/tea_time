@@ -131,17 +131,58 @@
 
  <details close="close">
   <summary>Request</summary>
-  
-```
-    get
-```
-  
+
+`GET "/api/v1/customers/:customer_id/subscriptions"`
+
 </details>
 
 <details close="close">
   <summary>Response</summary>
   
-#
+```
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "subscription",
+            "attributes": {
+                "customer_id": 1,
+                "tea_id": 1,
+                "title": "test",
+                "price": 10.0,
+                "frequency": "weekly",
+                "status": "cancelled"
+            }
+        },
+        {
+            "id": "2",
+            "type": "subscription",
+            "attributes": {
+                "customer_id": 1,
+                "tea_id": 2,
+                "title": "example",
+                "price": 12.0,
+                "frequency": "monthly",
+                "status": "active"
+            }
+        },
+        {
+            "id": "3",
+            "type": "subscription",
+            "attributes": {
+                "customer_id": 1,
+                "tea_id": 3,
+                "title": "example",
+                "price": 20.0,
+                "frequency": "yearly",
+                "status": "active"
+            }
+        }
+    ]
+
+}
+```
+
   
 </details>
 
@@ -153,7 +194,8 @@
 
 <details close="close">
   <summary>Request</summary>
-`POST /api/v1/teas`
+  
+`POST "/api/v1/teas"`
 
 Request body:
 ```
@@ -196,7 +238,7 @@ Request body:
   <summary>Request</summary>
   
 ```
-    post /api/v1/customers
+    post "/api/v1/customers"
 ```
   Request body:
 ```
