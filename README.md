@@ -7,9 +7,7 @@
 
 <br>
 
-<br>
-
-##  <div align="center">Overview</div>
+## Overview
 
 
 #### Framework
@@ -66,9 +64,7 @@
 
 <br>
 
-<br>
-
-## <div align="center">Local Setup</div>
+## Local Setup
 
 1. Fork and Clone the repo
 2. Install gems: run `bundle install`
@@ -79,8 +75,6 @@
 <br>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<br>
 
 <br>
 
