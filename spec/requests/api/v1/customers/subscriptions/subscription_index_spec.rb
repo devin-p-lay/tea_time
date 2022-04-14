@@ -22,4 +22,18 @@ RSpec.describe 'customer subscriptions endpoint' do
       expect(subscriptions[:data].count).to eq 2
     end
   end
-end 
+
+  context 'when response is not successful' do
+    it 'returns error if no customer found' do
+      get '/api/v1/customers/1/subscriptions'
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq 400
+
+      error = JSON.parse(response.body, symbolize_names: true)
+
+      expect(error).to have_key(:errors)
+      expect(error[:errors]).to eq('Customer not found')
+    end
+  end
+end

@@ -1,6 +1,7 @@
 class Api::V1::SubscriptionsController < ApplicationController
   before_action :require_valid_customer, only: [:index, :create]
   before_action :require_valid_tea, only: [:create]
+  before_action :require_valid_status, only: [:update]
 
   def index
     subscriptions = current_customer.subscriptions
@@ -16,6 +17,16 @@ class Api::V1::SubscriptionsController < ApplicationController
     end
   end
 
+  def update
+    subscription = Subscription.find_by(id: params[:id], customer_id: params[:customer_id])
+    if subscription
+      subscription.update(subscription_params)
+      render json: SubscriptionSerializer.new(subscription), status: :ok
+    else
+      render json: { errors: 'Subscription not found' }, status: :bad_request
+    end
+  end
+
   private
 
   def subscription_params
@@ -28,5 +39,11 @@ class Api::V1::SubscriptionsController < ApplicationController
 
   def require_valid_tea
     render json: { errors: 'Tea not found' }, status: :bad_request unless current_tea
+  end
+
+  def require_valid_status
+    if params[:status] && params[:status] != 'active' && params[:status] != 'cancelled'
+      render json: { errors: 'Status not valid' }, status: :bad_request
+    end
   end
 end
