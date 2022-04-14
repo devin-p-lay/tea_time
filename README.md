@@ -1,7 +1,7 @@
+# <div align="center">Rails API for a tea subcription service</div>
+
 # <div align="center">![Tea Time (8)](https://user-images.githubusercontent.com/87088092/163321616-2709dc54-55c5-4277-8496-249b8eeec256.png)
 </div>
-
-### <div align="center">Rails API for a tea subcription service</div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -45,10 +45,18 @@
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=flaste&logo=REST&logoColor=white" />  
 </p>
 
+### <ins>Contributors:</ins>
+
+💁🏽‍♂️   ** Devin Pile **
+
+Follow my: 
+- [Github](https://github.com/devin-p-lay)
+- [Linkedin](https://www.linkedin.com/in/devin-pile-162460165/)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
 ## <div align="center"> Database Schema </div>
 
-<div align="center"> ![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)</div>
+<div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)</div>
 
