@@ -47,17 +47,16 @@
 
 ### <ins>Contributors:</ins>
 
-<div align"center">👨🏽‍💻  **Devin Pile** </div>
+👨🏽‍💻 **Devin Pile**
 
-<div align"center">
 - Follow my [Github](https://github.com/devin-p-lay)
 - Connect with my [Linkedin](https://www.linkedin.com/in/devin-pile-162460165/)
-</div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
 ## <div align="center"> Database Schema </div>
 
-<div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)</div>
+<div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/163325076-c8d87205-5bbd-4851-99e7-48841be20313.png)</div>
+
 
