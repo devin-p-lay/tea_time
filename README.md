@@ -56,6 +56,13 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+## <div align="center">Local Setup</div>
+
+1. Fork and Clone the repo
+2. Install gems: run `bundle install`
+3. Set up the database: run  `rails db:{drop,create,migrate,seed}`
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## <div align="center"> Database Schema </div>
 
