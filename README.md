@@ -80,7 +80,7 @@
 
 ## <div align="center">Endpoints</div>
 
-<div align="center"> **get/patch/post** </div>
+<div align="center"> get   |   patch   |     post </div>
 
 <hr>
 
