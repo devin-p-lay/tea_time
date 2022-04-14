@@ -1,4 +1,5 @@
-# <div align="center">![Tea Time (6)](https://user-images.githubusercontent.com/87088092/163319854-82ccecbb-5ca0-4347-a884-1c59e90cc9a2.png)</div>
+# <div align="center">![Tea Time (7)](https://user-images.githubusercontent.com/87088092/163320498-f2b77ae2-183a-404a-8edd-a9002ca7dee2.png)
+</div>
 
 ### <div align="center">Rails API for a tea subcription service</div>
 
