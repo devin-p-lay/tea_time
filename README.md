@@ -78,7 +78,7 @@
 
 <div align="center">Endpoints</div>
 
-- Subscribe a customer to a tea subscription
+### Subscribe a customer to a tea subscription
   <details close="close">
   <summary>Request</summary>
   
@@ -94,6 +94,9 @@
 # ![Screen Shot 2022-04-14 at 1 22 22 AM](https://user-images.githubusercontent.com/87088092/163334727-bfc144f7-f1af-45de-86a3-44510690a5b0.png)
   
 </details>
+  
+  
+  
   
 - Cancel a customer's tea subscription
 - Index customer's subscriptions
