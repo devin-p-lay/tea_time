@@ -39,8 +39,8 @@
 <p>
   <img src="https://img.shields.io/badge/OOP-b81818.svg?&style=flaste&logo=OOP&logoColor=white" />
   <img src="https://img.shields.io/badge/TDD-b87818.svg?&style=flaste&logo=TDD&logoColor=white" />
+  <img src="https://img.shields.io/badge/MVC-FF6E4F.svg?&style=flaste&logo=MVC&logoColor=white" />
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=flaste&logo=REST&logoColor=white" />  
-  <img src="https://img.shields.io/badge/MVC-234169E1.svg?&style=flaste&logo=MVC&logoColor=white" />
 </p>
 
 
