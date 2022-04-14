@@ -60,7 +60,6 @@
 
 <br>
 
-
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <br>
@@ -70,6 +69,33 @@
 1. Fork and Clone the repo
 2. Install gems: run `bundle install`
 3. Set up the database: run  `rails db:{drop,create,migrate,seed}`
+
+<br>
+
+<br>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<div align="center">Endpoints</div>
+
+- Subscribe a customer to a tea subscription
+  <details close="close">
+  <summary>Request</summary>
+```json
+    post "/api/v1/customers/#{customer.id}/subscriptions"
+```
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+![Screen Shot 2022-04-14 at 1 22 22 AM](https://user-images.githubusercontent.com/87088092/163334727-bfc144f7-f1af-45de-86a3-44510690a5b0.png)
+</details>
+  
+- Cancel a customer's tea subscription
+- Index customer's subscriptions
+- Add a tea 
+- Add a customer
+
 
 <br>
 
