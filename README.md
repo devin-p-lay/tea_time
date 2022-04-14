@@ -194,18 +194,17 @@
 <details close="close">
   <summary>Response</summary>
 ```
-  {
-    "data": {
-        "id": "2",
-        "type": "customer",
-        "attributes": {
-            "first_name": "Beckett",
-            "last_name": "Bengal",
-            "email": "test@meowmail.com",
-            "address": "Street, City, State"
-        }
-    }
-}
+{
+  "data": {
+      "id": "2",
+      "type": "customer",
+      "attributes": {
+          "first_name": "Beckett",
+          "last_name": "Bengal",
+          "email": "test@meowmail.com",
+          "address": "Street, City, State"
+      }
+  }
 }
 ```
   
