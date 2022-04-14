@@ -76,6 +76,21 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+
+<br>
+
+## Testing
+
+- 100% coverage
+- Run Testing Suite: `bundle exec rspec`
+
+
+<br>
+
+<br>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <br>
 
 ## <div align="center">Endpoints</div>
