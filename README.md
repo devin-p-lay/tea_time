@@ -1,11 +1,15 @@
-# README
-
-# <div align="center">![Tea Time (4)](https://user-images.githubusercontent.com/87088092/162855601-26d0564d-ef6d-490c-9b70-a0caec109251.png)</div>
+# <div align="center">Rails API for a tea subcription service</div>
 
 
-### Overview
+# <div align="center">![Tea Time (8)](https://user-images.githubusercontent.com/87088092/163321616-2709dc54-55c5-4277-8496-249b8eeec256.png)
+</div>
 
-Tea Time is a rails API for a tea subcription service
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<br>
+
+## Overview
+
 
 #### Framework
 <p>
@@ -32,16 +36,49 @@ Tea Time is a rails API for a tea subcription service
   <img src="https://img.shields.io/badge/rspec--rails-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />
   <img src="https://img.shields.io/badge/pry-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />   
   <img src="https://img.shields.io/badge/simplecov-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />  
+  <img src="https://img.shields.io/badge/shoulda--matchers-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />
 </p>
 
 #### Development Principles
 <p>
   <img src="https://img.shields.io/badge/OOP-b81818.svg?&style=flaste&logo=OOP&logoColor=white" />
   <img src="https://img.shields.io/badge/TDD-b87818.svg?&style=flaste&logo=TDD&logoColor=white" />
+  <img src="https://img.shields.io/badge/MVC-FF6E4F.svg?&style=flaste&logo=MVC&logoColor=white" />
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=flaste&logo=REST&logoColor=white" />  
 </p>
 
+<hr>
 
-### <ins>Contributors</ins>
-![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)
+### <ins>Contributors:</ins>
 
+👨🏽‍💻 **Devin Pile**
+
+- Follow my [Github](https://github.com/devin-p-lay)
+- Connect with my [Linkedin](https://www.linkedin.com/in/devin-pile-162460165/)
+
+<br>
+
+<br>
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<br>
+
+## Local Setup
+
+1. Fork and Clone the repo
+2. Install gems: run `bundle install`
+3. Set up the database: run  `rails db:{drop,create,migrate,seed}`
+
+<br>
+
+<br>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<br>
+
+## <div align="center"> Database Schema </div>
+
+# <div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/163325076-c8d87205-5bbd-4851-99e7-48841be20313.png)</div>
