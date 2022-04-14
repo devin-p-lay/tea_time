@@ -80,6 +80,8 @@
 
 ## <div align="center">Endpoints</div>
 
+<div align="center"> **get/patch/post** </div>
+
 <hr>
 
 ### Subscribe a customer to a tea subscription
@@ -98,16 +100,54 @@
 #
   
 </details>
-  
-  
-  
-  
-- Cancel a customer's tea subscription
-- Index customer's subscriptions
 
 <br>
 
-<hr> 
+<hr>
+  
+### Cancel a customer's tea subscription
+
+ <details close="close">
+  <summary>Request</summary>
+  
+```
+    patch
+```
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+#
+  
+</details>
+
+<br>
+
+<hr>
+
+### Index customer's subscriptions
+
+ <details close="close">
+  <summary>Request</summary>
+  
+```
+    get
+```
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+#
+  
+</details>
+
+<br>
+
+<hr>
 
 ### Add a tea 
 
