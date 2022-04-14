@@ -2,12 +2,12 @@
 
 # <div align="center">![Tea Time (4)](https://user-images.githubusercontent.com/87088092/162855601-26d0564d-ef6d-490c-9b70-a0caec109251.png)</div>
 
-
-### Overview
-
-Tea Time is a rails API for a tea subcription service
+### <div align="center">Tea Time is a rails API for a tea subcription service</div>
 
 <hr>
+
+
+##  <div align="center">Overview</div>
 
 
 #### Framework
