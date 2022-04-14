@@ -193,7 +193,9 @@
 
 <details close="close">
   <summary>Response</summary>
+  
 ```json
+  
 {
     "data": {
         "id": "2",
