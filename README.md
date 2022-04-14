@@ -177,10 +177,14 @@
   <summary>Request</summary>
   
 ```json
+  
     post /api/v1/customers
+  
 ```
   Request body:
+  
 ```json
+  
   {
       first_name: 'Beckett',
       last_name: 'Bengal',
