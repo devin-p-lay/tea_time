@@ -47,10 +47,12 @@
 
 ### <ins>Contributors:</ins>
 
-<div align"center">🏽‍🧘🏽  **Devin Pile**
+<div align"center">👨🏽‍💻  **Devin Pile** </div>
 
+<div align"center">
 - Follow my [Github](https://github.com/devin-p-lay)
-- Connect with my [Linkedin](https://www.linkedin.com/in/devin-pile-162460165/)</div>
+- Connect with my [Linkedin](https://www.linkedin.com/in/devin-pile-162460165/)
+</div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
