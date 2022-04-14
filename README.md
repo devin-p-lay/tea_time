@@ -57,6 +57,6 @@
 
 ## <div align="center"> Database Schema </div>
 
-<div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/163325076-c8d87205-5bbd-4851-99e7-48841be20313.png)</div>
+# <div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/163325076-c8d87205-5bbd-4851-99e7-48841be20313.png)</div>
 
 
