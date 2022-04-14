@@ -40,9 +40,10 @@
   <img src="https://img.shields.io/badge/OOP-b81818.svg?&style=flaste&logo=OOP&logoColor=white" />
   <img src="https://img.shields.io/badge/TDD-b87818.svg?&style=flaste&logo=TDD&logoColor=white" />
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=flaste&logo=REST&logoColor=white" />  
+  <img src="https://img.shields.io/badge/MVC-234169E1.svg?&style=flaste&logo=MVC&logoColor=white" />
 </p>
 
 
-### <ins>Contributors</ins>
+### Database Schema
 ![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)
 
