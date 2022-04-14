@@ -1,5 +1,6 @@
 # <div align="center">Rails API for a tea subcription service</div>
 
+
 # <div align="center">![Tea Time (8)](https://user-images.githubusercontent.com/87088092/163321616-2709dc54-55c5-4277-8496-249b8eeec256.png)
 </div>
 
@@ -81,5 +82,3 @@
 ## <div align="center"> Database Schema </div>
 
 # <div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/163325076-c8d87205-5bbd-4851-99e7-48841be20313.png)</div>
-
-
