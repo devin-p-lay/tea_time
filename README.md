@@ -45,6 +45,8 @@
   <img src="https://img.shields.io/badge/REST-33b818.svg?&style=flaste&logo=REST&logoColor=white" />  
 </p>
 
+<hr>
+
 ### <ins>Contributors:</ins>
 
 👨🏽‍💻 **Devin Pile**
