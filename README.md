@@ -49,7 +49,7 @@
 
 <hr>
 
-### <ins>Contributors:</ins>
+### <ins>Authors:</ins>
 
 👨🏽‍💻 **Devin Pile**
 
