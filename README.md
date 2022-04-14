@@ -89,7 +89,17 @@
   <summary>Request</summary>
   
 ```
-    post "/api/v1/customers/#{customer.id}/subscriptions"
+    post "/api/v1/customers/:customer_id/subscriptions"
+```
+  
+  Request body:
+```
+{
+    "tea_id": "1",
+    "frequency": "weekly",
+    "title": "example",
+    "price": "20.00"
+}
 ```
   
 </details>
@@ -97,7 +107,23 @@
 <details close="close">
   <summary>Response</summary>
   
-#
+```json
+{
+    "data": {
+        "id": "6",
+        "type": "subscription",
+        "attributes": {
+            "customer_id": 1,
+            "tea_id": 1,
+            "title": "example",
+            "price": 20.0,
+            "frequency": "weekly",
+            "status": "active"
+        }
+    }
+}
+```
+
   
 </details>
 
@@ -109,17 +135,30 @@
 
  <details close="close">
   <summary>Request</summary>
-  
-```
-    patch
-```
-  
+
+`PATCH "/api/v1/customers/:customer_id/subscriptions/:subscription_id?status=cancelled"`
+
 </details>
 
 <details close="close">
   <summary>Response</summary>
   
-#
+```json
+{
+    "data": {
+        "id": "1",
+        "type": "subscription",
+        "attributes": {
+            "customer_id": 1,
+            "tea_id": 1,
+            "title": "test",
+            "price": 10.0,
+            "frequency": "weekly",
+            "status": "cancelled"
+        }
+    }
+}
+```
   
 </details>
 
@@ -131,17 +170,58 @@
 
  <details close="close">
   <summary>Request</summary>
-  
-```
-    get
-```
-  
+
+`GET "/api/v1/customers/:customer_id/subscriptions"`
+
 </details>
 
 <details close="close">
   <summary>Response</summary>
   
-#
+```json
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "subscription",
+            "attributes": {
+                "customer_id": 1,
+                "tea_id": 1,
+                "title": "test",
+                "price": 10.0,
+                "frequency": "weekly",
+                "status": "cancelled"
+            }
+        },
+        {
+            "id": "2",
+            "type": "subscription",
+            "attributes": {
+                "customer_id": 1,
+                "tea_id": 2,
+                "title": "example",
+                "price": 12.0,
+                "frequency": "monthly",
+                "status": "active"
+            }
+        },
+        {
+            "id": "3",
+            "type": "subscription",
+            "attributes": {
+                "customer_id": 1,
+                "tea_id": 3,
+                "title": "example",
+                "price": 20.0,
+                "frequency": "yearly",
+                "status": "active"
+            }
+        }
+    ]
+
+}
+```
+
   
 </details>
 
@@ -154,8 +234,16 @@
 <details close="close">
   <summary>Request</summary>
   
+`POST "/api/v1/teas"`
+
+Request body:
 ```
-    post "/api/v1/teas"
+{
+    "title": "Oolong Tea",
+    "description": "Organic, top rated",
+    "temperature": "152",
+    "brew_time": "Between 2-5 minutes"
+}
 ```
   
 </details>
@@ -163,8 +251,20 @@
 <details close="close">
   <summary>Response</summary>
   
-# ![Screen Shot 2022-04-14 at 1 22 22 AM](https://user-images.githubusercontent.com/87088092/163334727-bfc144f7-f1af-45de-86a3-44510690a5b0.png)
-  
+  ```json
+{
+    "data": {
+        "id": "2",
+        "type": "tea",
+        "attributes": {
+            "title": "Oolong Tea",
+            "description": "Organic, top rated",
+            "temperature": 152,
+            "brew_time": "Between 2-5 minutes"
+        }
+    }
+}
+```
 </details>
 
 <br> 
@@ -179,13 +279,37 @@
 ```
     post "/api/v1/customers"
 ```
+  Request body:
+```
+  
+  {
+      first_name: 'Beckett',
+      last_name: 'Bengal',
+      email: 'test@meowmail.com',
+      address: 'Street, City, State'
+  }
+```
   
 </details>
 
 <details close="close">
   <summary>Response</summary>
   
-# ![Screen Shot 2022-04-14 at 1 31 40 AM](https://user-images.githubusercontent.com/87088092/163336247-ccc73b02-4383-4f57-901b-2cd5570ef7c4.png)
+```json
+  
+{
+    "data": {
+        "id": "2",
+        "type": "customer",
+        "attributes": {
+            "first_name": "Beckett",
+            "last_name": "Bengal",
+            "email": "test@meowmail.com",
+            "address": "Street, City, State"
+        }
+    }
+}
+```
   
 </details>
 
