@@ -76,6 +76,8 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+<br>
+
 <div align="center">Endpoints</div>
 
 ### Subscribe a customer to a tea subscription
@@ -91,7 +93,7 @@
 <details close="close">
   <summary>Response</summary>
   
-# ![Screen Shot 2022-04-14 at 1 22 22 AM](https://user-images.githubusercontent.com/87088092/163334727-bfc144f7-f1af-45de-86a3-44510690a5b0.png)
+#
   
 </details>
   
@@ -100,9 +102,45 @@
   
 - Cancel a customer's tea subscription
 - Index customer's subscriptions
-- Add a tea 
-- Add a customer
+### Add a tea 
 
+<details close="close">
+  <summary>Request</summary>
+  
+```
+    post "/api/v1/teas"
+```
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+# ![Screen Shot 2022-04-14 at 1 22 22 AM](https://user-images.githubusercontent.com/87088092/163334727-bfc144f7-f1af-45de-86a3-44510690a5b0.png)
+  
+</details>
+
+<br> 
+
+<hr>
+
+### Add a customer
+
+<details close="close">
+  <summary>Request</summary>
+  
+```
+    post "/api/v1/customers"
+```
+  
+</details>
+
+<details close="close">
+  <summary>Response</summary>
+  
+# ![Screen Shot 2022-04-14 at 1 31 40 AM](https://user-images.githubusercontent.com/87088092/163336247-ccc73b02-4383-4f57-901b-2cd5570ef7c4.png)
+  
+</details>
 
 <br>
 
