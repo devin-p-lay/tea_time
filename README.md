@@ -48,6 +48,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-###  <div align="center">Database Schema</div>
-<div align="center">![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)</div>
+## <div align="center"> Database Schema </div>
+
+<div align="center"> ![Screen Shot 2022-04-11 at 3 09 33 PM](https://user-images.githubusercontent.com/87088092/162833563-5eee0602-5558-47f5-a341-cd8953313170.png)</div>
 
