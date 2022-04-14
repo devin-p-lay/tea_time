@@ -182,10 +182,10 @@
   Request body:
 ```
   {
-      first_name: 'Devin',
-      last_name: 'Pilé',
-      email: 'devin@email.com',
-      address: '123 Fake St.'
+      first_name: 'Beckett',
+      last_name: 'Bengal',
+      email: 'test@meowmail.com',
+      address: 'Street, City, State'
   }
 ```
   
@@ -193,8 +193,21 @@
 
 <details close="close">
   <summary>Response</summary>
-  
-# ![Screen Shot 2022-04-14 at 1 31 40 AM](https://user-images.githubusercontent.com/87088092/163336247-ccc73b02-4383-4f57-901b-2cd5570ef7c4.png)
+```
+  {
+    "data": {
+        "id": "2",
+        "type": "customer",
+        "attributes": {
+            "first_name": "Beckett",
+            "last_name": "Bengal",
+            "email": "test@meowmail.com",
+            "address": "Street, City, State"
+        }
+    }
+}
+}
+```
   
 </details>
 
