@@ -176,11 +176,11 @@
 <details close="close">
   <summary>Request</summary>
   
-```
-    post "/api/v1/customers"
+```json
+    post /api/v1/customers
 ```
   Request body:
-```
+```json
   {
       first_name: 'Beckett',
       last_name: 'Bengal',
