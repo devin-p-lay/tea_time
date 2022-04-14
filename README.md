@@ -1,8 +1,7 @@
-# <div align="center">Rails API for a tea subcription service</div>
-
-
 # <div align="center">![Tea Time (8)](https://user-images.githubusercontent.com/87088092/163321616-2709dc54-55c5-4277-8496-249b8eeec256.png)
 </div>
+
+# <div align="center">A rails API for a tea subcription service</div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
